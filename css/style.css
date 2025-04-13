@@ -1,0 +1,142 @@
+/*
+Theam Name : HTML;
+Date: April 2025;
+Description: Learn Basic HTML5 and CSS3; 
+Version:1.0;
+Author:Baraa Othman;
+Author URL: site.alaqsa.edu.ps
+*/
+
+/*
+color: #e74c3c;
+color: #f58233;
+color: #999;  /*رمادي*/
+
+body {
+
+    
+    background: url("/imege/back.jpeg") ;
+    /*اذا لم تظهر الخلفية*/
+    background: linear-gradient(to bottom right, #a7c5eb, #fbc4ab);
+
+    background-size: cover;
+    font-size: 87%;
+    font-family: Arial, 'Lucida Sans Unicode', sans-serif;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #e74c3c;
+}
+
+a:hover, a:active{
+    color: #f58233;
+}
+
+.body{
+    width: 70%;
+    margin: 10px auto;
+    clear: both;
+}
+
+.mainheader img{
+    width: 100%;
+}
+/*-------------------------Main Header---------------------------------------------------------*/
+.mainheader nav
+{
+    background-color: #e74c3c;
+    height: 40px;
+}
+.mainheader nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.mainheader nav ul li{
+    display: inline;
+}
+.mainheader a {
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20px;
+}
+
+.mainheader a:hover,
+.mainheader a:active {
+    background-color: #f58233;
+    color: white;
+}
+
+/*-------------------------Main Content---------------------------------------------------------*/
+.mainContent
+{
+    width: 70%;
+    float:right;
+}
+.top-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.post-info
+{
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+}
+.post-content
+{
+   display: block; 
+}
+.post-img
+{
+   width: 100%; 
+}
+aside {
+    width: 26%;
+    margin-top: 10px;
+    background-color: #fff;
+    float: right;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.footer {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    clear: both;
+    border-top: 4px solid #f58233;
+}
+
+.footer p,
+.footer a {
+    color: white;
+    font-size: 90%;
+}
+
+figure {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 80%;
+    color: #999;
+}
+
